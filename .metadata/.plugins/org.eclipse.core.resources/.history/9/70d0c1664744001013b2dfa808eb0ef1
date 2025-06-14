@@ -1,0 +1,21 @@
+package com.tests;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class DataDriven {
+	
+	public static void main(String[] args) {
+		
+//		Create a file
+		File f = new File("C:\\Users\\Pc\\eclipse-workspace\\FrameWork\\src\\test\\resources\\TestData.xlsx");
+		
+//		pass this as input
+		FileInputStream fis = new FileInputStream(f);
+		
+//		connect with workbook
+		WorkBook
+	}
+
+}

@@ -1,0 +1,7 @@
+2025-06-05 09:07:58 [main] INFO  utilities.BaseClass - In method enterUsername
+2025-06-05 09:10:50 [main] INFO  utilities.BaseClass - In method enterUsername
+2025-06-05 09:10:50 [main] INFO  utilities.BaseClass - entered Username
+2025-06-05 09:10:50 [main] INFO  utilities.BaseClass - In method enterPasswrod
+2025-06-05 09:10:51 [main] INFO  utilities.BaseClass - entered Passwrod
+2025-06-05 09:10:51 [main] INFO  utilities.BaseClass - In method enterLoginBtn
+2025-06-05 09:10:52 [main] INFO  utilities.BaseClass - entered LoginBtn

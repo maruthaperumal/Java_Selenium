@@ -1,0 +1,67 @@
+package com.tests;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class DataDriven {
+	
+	public static void main(String[] args) throws IOException {
+		
+//		Create a file
+		File f = new File("C:\\Users\\Pc\\eclipse-workspace\\FrameWork\\src\\test\\resources\\TestData.xlsx");
+		
+//		pass this as input
+        FileInputStream fis = new FileInputStream(f);
+		
+//		connect with workbook
+	    Workbook wb = new XSSFWorkbook(fis);
+	    
+//	    Transverse into sheet
+	    Sheet s = wb.getSheetAt(0);
+	    
+//	    connect with row
+	    Row r = s.getRow(4);
+	    
+//	    connect with cell
+	    Cell c = r.getCell(1);
+	    
+//	    Checking cell type
+	    CellType type = c.getCellType();
+	    
+//	    Validating cell type and retrieving the data 
+	    
+	    if (type.equals(CellType.STRING)) {
+	    	String value = c.getStringCellValue();
+	    	System.out.println(value);
+		}else if (type.equals(CellType.NUMERIC)) {
+			double d = c.getNumericCellValue();
+			int a = (int) d;
+			System.out.println(a);
+		}
+	    
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

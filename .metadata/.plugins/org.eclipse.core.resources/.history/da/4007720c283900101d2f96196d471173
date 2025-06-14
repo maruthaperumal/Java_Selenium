@@ -1,0 +1,22 @@
+package org.java;
+
+public class ReverseString {
+	
+	
+	static String String = "hello, World!";
+	
+	static String reverse = new StringBuilder(String).reverse().toString();
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		System.out.println("Reversed: " +reverse);
+		
+		
+		
+	}
+
+}

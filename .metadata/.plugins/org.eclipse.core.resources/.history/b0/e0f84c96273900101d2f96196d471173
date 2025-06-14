@@ -1,0 +1,16 @@
+package org.java;
+
+public class ReverseString {
+	
+	public static void main(String[] args) {
+		
+		String String = "hello, World!";
+		
+		String reverse = new StringBuilder(String).reverse().toString();
+		System.out.println("Reversed: " +reverse);
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.day9.Abstract&apos; to &apos;RBIbank&apos;&#x0D;&#x0A;- Original project: &apos;Interface&apos;&#x0D;&#x0A;- Original element: &apos;org.day9.Abstract&apos;&#x0D;&#x0A;- Renamed element: &apos;org.day9.RBIbank&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Abstract&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;org.day9{Abstract.java[Abstract" matchStrategy="1" name="RBIbank" qualified="false" references="true" similarDeclarations="true" stamp="1743232233814" textual="false" version="1.0"/>
+</session>
