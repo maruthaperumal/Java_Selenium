@@ -3711,3 +3711,9 @@ Caused by: org.apache.hc.core5.http.ProtocolException: Target host is not specif
 !MESSAGE Cannot complete the install because some dependencies are not satisfiable
 !SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2025-06-14 10:03:36.256
 !MESSAGE org.eclipse.equinox.p2.iu; org.eclipse.linuxtools.systemtap.feature.group [8.19.0.202506031941,8.19.0.202506031941] cannot be installed in this environment because its filter is not applicable.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-14 11:56:47.014
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-14 11:56:47.027
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
